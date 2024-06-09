@@ -1,0 +1,74 @@
+nav{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+background-color: gray;
+
+
+}
+nav div{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* height: 100vh; */
+  /* background-color: ; */
+  margin: 0;
+}
+.logo{
+  width: 6vw;
+
+}
+footer{
+  /* position:absolute; */
+  /* bottom: -10; */
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+  color: rgba(240, 248, 255, 0.824);
+  padding:  10px;
+  background-color: black;
+}
+.card img{
+  border-radius: 10px 10px 0px 0px;
+  height:50vh;
+  width: 30vw;
+}
+.card h2{
+
+  /* text-shadow:3px 0px 5px #f08242; */
+}
+.allCard{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  /* background-color: antiquewhite; */
+}
+.card:hover{
+  
+  box-shadow:0px 0px 10px #f08242; 
+}
+.card{
+  box-shadow:0px 0px 10px #452919; 
+  /* opacity: 0.6; */
+  border-radius: 10px;
+text-align: center;
+  border: 1px solid gray;
+}
+.card ul{
+text-align: start;
+}
+
+nav div span{
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  color: #1c272d;
+}
